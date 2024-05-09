@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.container{
+  background-color:lightgray;
+  padding: 20px;
+  border-radius: 15px;
+  margin: auto;
+  width:40%;
+}
+.container > p {
+  transition: height 0.5s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+  height: 520px;
+  overflow: hidden;
+}
+.para > p {
+  /* -webkit-line-clamp:4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box; */
+  height: 190px;
+  
+}
+#btn{
+  height: 100%;
+  max-width: fit-content;
+  font-weight: 700;
+  color: red;
+  border-radius: 5px;
+  border: 2px solid grey;
+  padding:5px;
+
+}
+
+
+
+
